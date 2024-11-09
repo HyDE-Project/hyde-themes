@@ -1,7 +1,16 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-pink'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Rose-Pine'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+#  P̳r̳a̳s̳a̳n̳t̳h̳ R̳a̳n̳g̳a̳n̳
+
+$GTK_THEME = Rose-Pine
+$ICON_THEME = Tela-circle-pink
+$COLOR_SCHEME = prefer-dark
+
+# Optional: The varibles above will be set automatically when the theme is loaded
+# This exec commands will soon be deprecated
+
+exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
+exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
+exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
 general {
     gaps_in = 3
@@ -22,7 +31,7 @@ group {
 
 decoration {
     rounding = 10
-    drop_shadow = false
+    shadow:enabled = false
 
     blur {
         enabled = yes
