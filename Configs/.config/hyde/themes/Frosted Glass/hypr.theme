@@ -6,9 +6,16 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 #   |____|          \______  /|__|   / ____||   __/|__|  
 #                          \/        \/     |__|      
 
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-blue'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Frosted-Glass'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+$GTK_THEME = Frosted-Glass
+$ICON_THEME = Tela-circle-blue
+$COLOR_SCHEME = prefer-light
+
+# Optional: The varibles above will be set automatically when the theme is loaded
+# This exec commands are only for older versions of Hyprdots
+
+exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
+exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
+exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
 general {
     gaps_in = 4
@@ -29,14 +36,17 @@ group {
 
 decoration {
     rounding = 13
-    drop_shadow = false
-    shadow_ignore_window = true
-    shadow_offset = 0 0
-    shadow_range = 15
-    shadow_render_power = 1
-    col.shadow = 0x80ffffff
     active_opacity = 0.75
     inactive_opacity = 0.75
+
+    shadow {
+        enabled = yes
+        ignore_window = true
+        offset = 0 0
+        range = 15
+        render_power = 1
+        color = 0x80ffffff
+    }
 
     blur {
         enabled = yes
