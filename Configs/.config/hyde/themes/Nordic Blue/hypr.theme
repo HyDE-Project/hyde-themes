@@ -1,14 +1,21 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-#  ___________      _________                        __   
-#  \__    ___/      \_   ___ \_______ ___.__._______/  |_ 
+#  ___________      _________                        __
+#  \__    ___/      \_   ___ \_______ ___.__._______/  |_
 #   |    |  ______ /    \  \/\_  __ <   |  |\____ \   __\
-#   |    | /_____/ \     \____|  | \/\___  ||  |_> >  |  
-#   |____|          \______  /|__|   / ____||   __/|__|  
-#                          \/        \/     |__|      
+#   |    | /_____/ \     \____|  | \/\___  ||  |_> >  |
+#   |____|          \______  /|__|   / ____||   __/|__|
+#                          \/        \/     |__|
 
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Nordzy'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Nordic-Blue'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+$GTK_THEME = Nordic-Blue
+$ICON_THEME = Nordzy
+$COLOR_SCHEME = prefer-dark
+
+# Optional: The varibles above will be set automatically when the theme is loaded
+# This exec commands will soon be deprecated
+
+exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
+exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
+exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
 general {
     gaps_in = 3
@@ -29,7 +36,7 @@ group {
 
 decoration {
     rounding = 7
-    drop_shadow = false
+    shadow:enabled = false
 
     blur {
         enabled = yes
