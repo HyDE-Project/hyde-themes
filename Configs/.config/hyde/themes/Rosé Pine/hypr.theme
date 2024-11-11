@@ -12,6 +12,8 @@ exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
 exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
 exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
+env = GTK_THEME,$GTK_THEME
+
 general {
     gaps_in = 3
     gaps_out = 8
