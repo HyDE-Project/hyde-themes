@@ -36,9 +36,9 @@ decoration {
         enabled = true
         range = 0
         ignore_window = true
-        offset = 0 0
+        offset = 5 5
         render_power = 4
-        color = 0x000000
+        color = 0xffFFFFFF
     }
 
 
