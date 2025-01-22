@@ -4,7 +4,7 @@
 <br><br></div>
 
 > [!IMPORTANT]
-> These are not standalone themes, needs [HyDE](https://github.com/prasanthrangan/hyprdots) installed...
+> These are not standalone themes, needs [HyDE](https://github.com/Hyde-project/hyde) installed...
 
 <br>
 
@@ -25,7 +25,7 @@
 
 </td></tr></table></div><br>
 
-These are the base themes used in [HyDE](https://github.com/prasanthrangan/hyprdots) by default, use themepatcher to install a specific theme from one of the branch.
+These are the base themes used in [HyDE](https://github.com/Hyde-project/hyde) by default, use themepatcher to install a specific theme from one of the branch.
 
 ```shell
 # themepatcher.sh "<Theme Name>" "<git branch url>"
