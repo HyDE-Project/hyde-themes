@@ -1,10 +1,11 @@
-###### *<div align = right><sub>// design by t2</sub></div>*
+###### _<div align = right><sub>// design by t2</sub></div>_
+
 <div align = center>
-<img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyde_banner.png">
+<img src="https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/hyde_banner.png">
 <br><br></div>
 
 > [!IMPORTANT]
-> These are not standalone themes, needs [HyDE](https://github.com/prasanthrangan/hyprdots) installed...
+> These are not standalone themes, needs [HyDE](https://github.com/hyde-project/hyde) installed...
 
 <br>
 
@@ -25,22 +26,23 @@
 
 </td></tr></table></div><br>
 
-These are the base themes used in [HyDE](https://github.com/prasanthrangan/hyprdots) by default, use themepatcher to install a specific theme from one of the branch.
+These are the base themes used in [HyDE](https://github.com/hyde-project/hyde) by default, use themepatcher to install a specific theme from one of the branch.
 
 ```shell
 # themepatcher.sh "<Theme Name>" "<git branch url>"
-./themepatcher.sh "Catppuccin Mocha" "https://github.com/prasanthrangan/hyde-themes/tree/Catppuccin-Mocha"
+./themepatcher.sh "Catppuccin Mocha" "https://github.com/hyde-project/hyde-themes/tree/Catppuccin-Mocha"
 ```
+
 <br>
 
-https://github.com/prasanthrangan/hyprdots-mod/assets/106020512/0c7f12a8-11f2-4a16-890e-44f07a860636
+https://github.com/hyde-project/hyde-mod/assets/106020512/0c7f12a8-11f2-4a16-890e-44f07a860636
 
 <br>
 
 > [!TIP]
-> To create your own custom theme, please refer [theming wiki](https://github.com/prasanthrangan/hyprdots/wiki/Theming).
+> To create your own custom theme, please refer [theming wiki](https://github.com/hyde-project/hyde/wiki/Theming).
 > You can also install/browse/create/maintain/share additional themes using themepatcher.
-> For more details please refer [themepatcher wiki](https://github.com/prasanthrangan/hyprdots/wiki/Theming#theme-patcher).
+> For more details please refer [themepatcher wiki](https://github.com/hyde-project/hyde/wiki/Theming#theme-patcher).
 
 <div align="right">
   <br>
@@ -49,47 +51,47 @@ https://github.com/prasanthrangan/hyprdots-mod/assets/106020512/0c7f12a8-11f2-4a
 
 <br><table><td><br>
 
-> #### ***<div align = right>// Catppuccin Mocha</div>***
+> #### **_<div align = right>// Catppuccin Mocha</div>_**
 
-![Catppuccin-Mocha#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_mocha_1.png)
-![Catppuccin-Mocha#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_mocha_2.png)<br><br>
+![Catppuccin-Mocha#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_mocha_1.png)
+![Catppuccin-Mocha#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_mocha_2.png)<br><br>
 
-> #### ***<div align = right>// Catppuccin Latte</div>***
+> #### **_<div align = right>// Catppuccin Latte</div>_**
 
-![Catppuccin-Latte#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_latte_1.png)
-![Catppuccin-Latte#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_latte_2.png)<br><br>
+![Catppuccin-Latte#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_latte_1.png)
+![Catppuccin-Latte#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_latte_2.png)<br><br>
 
-> #### ***<div align = right>// Decay Green</div>***
-![Decay-Green#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_decay_1.png)
-![Decay-Green#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_decay_2.png)<br><br>
+> #### **_<div align = right>// Decay Green</div>_**
+>
+> ![Decay-Green#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_decay_1.png) > ![Decay-Green#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_decay_2.png)<br><br>
 
-> #### ***<div align = right>// Rosé Pine</div>***
-![Rosé-Pine#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_rosine_1.png)
-![Rosé-Pine#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_rosine_2.png)<br><br>
+> #### **_<div align = right>// Rosé Pine</div>_**
+>
+> ![Rosé-Pine#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_rosine_1.png) > ![Rosé-Pine#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_rosine_2.png)<br><br>
 
-> #### ***<div align = right>// Tokyo Night</div>***
-![Tokyo-Night#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_tokyo_1.png)
-![Tokyo-Night#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_tokyo_2.png)<br><br>
+> #### **_<div align = right>// Tokyo Night</div>_**
+>
+> ![Tokyo-Night#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_tokyo_1.png) > ![Tokyo-Night#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_tokyo_2.png)<br><br>
 
-> #### ***<div align = right>// Material Sakura</div>***
-![Material-Sakura#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_maura_1.png)
-![Material-Sakura#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_maura_2.png)<br><br>
+> #### **_<div align = right>// Material Sakura</div>_**
+>
+> ![Material-Sakura#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_maura_1.png) > ![Material-Sakura#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_maura_2.png)<br><br>
 
-> #### ***<div align = right>// Graphite Mono</div>***
-![Graphite-Mono#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_graph_1.png)
-![Graphite-Mono#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_graph_2.png)<br><br>
+> #### **_<div align = right>// Graphite Mono</div>_**
+>
+> ![Graphite-Mono#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_graph_1.png) > ![Graphite-Mono#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_graph_2.png)<br><br>
 
-> #### ***<div align = right>// Cyberpunk Edge</div>***
-![Cyberpunk-Edge#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_cedge_1.png)
-![Cyberpunk-Edge#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_cedge_2.png)<br><br>
+> #### **_<div align = right>// Cyberpunk Edge</div>_**
+>
+> ![Cyberpunk-Edge#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_cedge_1.png) > ![Cyberpunk-Edge#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_cedge_2.png)<br><br>
 
-> #### ***<div align = right>// Frosted Glass by T-crypt</div>***
-![Frosted-Glass#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_frosted_1.png)
-![Frosted-Glass#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_frosted_2.png)<br><br>
+> #### **_<div align = right>// Frosted Glass by T-crypt</div>_**
+>
+> ![Frosted-Glass#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_frosted_1.png) > ![Frosted-Glass#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_frosted_2.png)<br><br>
 
-> #### ***<div align = right>// Gruvbox Retro by T-crypt</div>***
-![Gruvbox-Retro#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_1.png)
-![Gruvbox-Retro#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_2.png)
+> #### **_<div align = right>// Gruvbox Retro by T-crypt</div>_**
+>
+> ![Gruvbox-Retro#1](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_gruvbox_1.png) > ![Gruvbox-Retro#2](https://raw.githubusercontent.com/hyde-project/hyde/main/Source/assets/theme_gruvbox_2.png)
 
 </td></table>
 
